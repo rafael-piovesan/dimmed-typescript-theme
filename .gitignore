@@ -1,0 +1,16 @@
+*.vsix
+node_modules/
+graft/
+.claude/
+.idea
+.mcp.json
+.vscode
+.gitmodules
+.gitconfig
+.ripgreprc
+.bashrc
+.bash_profile
+.profile
+.zshrc
+.zprofile
+.ignore

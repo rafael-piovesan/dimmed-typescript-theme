@@ -1,0 +1,8 @@
+graft/**
+.claude/**
+.vscode/**
+.idea
+.mcp.json
+.gitmodules
+*.vsix
+.ignore

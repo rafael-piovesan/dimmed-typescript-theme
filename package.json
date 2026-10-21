@@ -1,0 +1,34 @@
+{
+  "name": "dimmed-typescript-theme",
+  "displayName": "Dimmed TypeScript",
+  "description": "A dimmed, low-contrast dark theme tuned for TypeScript syntax highlighting.",
+  "version": "0.1.0",
+  "publisher": "rpiovesan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rafael-piovesan/dimmed-typescript-theme.git"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "dimmed",
+    "typescript",
+    "low contrast"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dimmed TypeScript",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dimmed-typescript-color-theme.json"
+      }
+    ]
+  }
+}
