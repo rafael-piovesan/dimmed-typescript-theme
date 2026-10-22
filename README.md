@@ -88,4 +88,7 @@ Then run **Preferences: Color Theme** and pick **Dimmed TypeScript** or
 **Dimmed TypeScript Refined**.
 
 ## Sample
-![theme in action](images/screen01.png)
+
+![dimmed-theme](images/screen01.png)
+
+![refined-theme](images/screen02.png)
