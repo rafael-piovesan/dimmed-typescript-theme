@@ -330,6 +330,16 @@
       "settings": { "foreground": "#adbac7" }
     },
     {
+      "name": "Const declarations (TextMate marks every const name as constant; matches semantic variable.readonly)",
+      "scope": ["meta.definition.variable variable.other.constant"],
+      "settings": { "foreground": "#b8c5d2" }
+    },
+    {
+      "name": "UPPER_CASE properties (matches semantic property.readonly)",
+      "scope": ["variable.other.constant.property"],
+      "settings": { "foreground": "#a3b8cc" }
+    },
+    {
       "name": "Parameters",
       "scope": ["variable.parameter", "meta.parameters variable"],
       "settings": { "foreground": "#f69d50" }

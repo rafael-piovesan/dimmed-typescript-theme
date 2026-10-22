@@ -29,13 +29,23 @@ interfaces (italic), type parameters, readonly variables and enum members.
 
 ## Try it
 
-Open this folder in VS Code and press `F5`. Select **Dimmed TypeScript** in the new window.
+Open this folder in VS Code and press `F5` to run the **Preview theme** launch configuration. It
+starts an Extension Development Host: a second VS Code window with this theme loaded and
+[`samples/showcase.ts`](samples/showcase.ts) open. Select **Dimmed TypeScript** with
+**Preferences: Color Theme** in that window.
+
+The sample uses every color role in
+the palette: imports, namespaces, enums, generics, decorators, classes, async code, template
+strings, regex and JSDoc. [`samples/models.ts`](samples/models.ts) holds the types it imports.
 
 ## Install
 
 ```bash
 npx @vscode/vsce package
-code --install-extension dimmed-typescript-theme-0.1.0.vsix
+code --install-extension dimmed-typescript-theme-0.2.0.vsix
 ```
 
 Then run **Preferences: Color Theme** and pick **Dimmed TypeScript**.
+
+## Sample
+![theme in action](images/screen01.png)

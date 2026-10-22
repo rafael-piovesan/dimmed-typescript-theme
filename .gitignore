@@ -4,7 +4,8 @@ graft/
 .claude/
 .idea
 .mcp.json
-.vscode
+.vscode/*
+!.vscode/launch.json
 .gitmodules
 .gitconfig
 .ripgreprc
